@@ -24,14 +24,13 @@
     .container{
         width: 500px;
         height: 520px;
-        background-color: red;
+        background-color: white;
         border-radius: 30px;
     }
 
     #btnDialog{
         display: none;
     }
-
 
     footer{
         position: absolute;
@@ -68,8 +67,8 @@
         align-items: flex-start;
         height: 100%;
 
-        //padding-left: 20px;
-        //padding-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
 
         @media only screen and (min-width: 1440px){
             padding-left: 60px;
