@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
+
+
+<style global lang="scss">
+
+	@font-face{
+		font-family: 'RobotoBold';
+		src: url('/fonts/Roboto-Bold.ttf');
+	}
+
+    @font-face{
+        font-family: 'RobotoRegular';
+        src: url('/fonts/Roboto-Regular.ttf');
+    }
+
+	label, h1, button, .button{
+		font-family: 'RobotoBold';
+	}
+
+	label{
+		font-size: 12px;
+		color: hsl(234, 29%, 20%);
+	}
+
+
+	h1{
+        font-size: 45px;
+		color: hsl(234, 29%, 20%);
+    }
+
+	*{
+		font-family: 'RobotoRegular';
+		color: hsl(235, 18%, 26%);
+	}
+
+
+	#app{
+		padding: 0;
+		margin: 0;
+	}
+
+
+
+
+	
+
+	
+
+	
+
+
+	button, .button{
+        margin-top: 20px;
+        color: white;
+        background-color: hsl(234, 29%, 20%);
+        border: none;
+        transition: 0.3s;
+        
+        @media only screen and (min-width: 1440px){
+            &:hover{
+                background: rgb(255,84,118);
+                background: linear-gradient(90deg, rgba(255,84,118,1) 35%, rgba(255,98,0,1) 100%);
+                box-shadow: 0 0 2rem 0 hsl(4, 100%, 67%);;
+            }
+        }   
+	}
+
+	button, input{
+        height: 50px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+	input{
+		width: 310px; /* 20px menos porque el padding del cursor */
+		@media only screen and (min-width: 1440px){
+            width: 355px;       
+        }
+	}
+
+	.button ,button{
+		font-family: 'RobotoBold';
+		width: 330px;
+        @media only screen and (min-width: 1440px){
+            width: 375px;       
+        }
+	}
+
+	
+
+
+	body{
+		display: grid;
+		place-content: center;
+		background-color: hsl(0, 0%, 100%);
+		@media only screen and (min-width: 1440px){
+			background-color: hsl(235, 18%, 26%);
+		}
+		height: 100vh;
+		font-size: 16px;
+	}
+</style>

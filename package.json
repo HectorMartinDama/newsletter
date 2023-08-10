@@ -1,0 +1,23 @@
+{
+	"name": "newsletter",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"eslint": "^8.28.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"lottie-web": "^5.12.2",
+		"sass": "^1.64.2",
+		"svelte": "^4.0.5",
+		"svelte-preprocess": "^5.0.4",
+		"vite": "^4.4.2"
+	},
+	"type": "module"
+}
